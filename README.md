@@ -1,6 +1,10 @@
 # DIO - Trilha .NET - API e Entity Framework
 www.dio.me
 
+# Alterações 
+O Projeto foi alterado para utilizar o banco de dados PostgreSQL versão 9.5, usando o pacote Npgsql.EntityFrameworkCore.PostgreSQL.
+Para o rollback da migration foi necessário adicionar o drop do ENUM manualmente.
+
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de API e Entity Framework, da trilha .NET da DIO.
 
